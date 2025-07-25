@@ -11,7 +11,7 @@ def main():
     initial_sidebar_state="auto"
   )
   
-  st.logo("assets/rudra.png")
+  # st.logo("assets/rudra.png")
   
   # Show balloons only once per session
   if "balloons_shown" not in st.session_state:
